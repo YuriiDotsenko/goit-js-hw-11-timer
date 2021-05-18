@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Goblin One", cursive;
+  background-color: rgb(151, 226, 119);
+  color: #212121;
+  font-size: 20px;
+}
+
+.timer {
+  box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
+  color: #212121;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  padding: 30px;
+}
